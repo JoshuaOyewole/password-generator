@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px;
+            background-color: #800780;
+            min-height: 100vh;
+            font-family: 'Muli', sans-serif;
+        }
+
+        .container{
+            background-color: rgb(158, 0, 158);
+            color: #f4f4f4;
+            max-width: 350px;
+            padding: 20px;
+            box-shadow: 0px 2px 10px rgba(235, 169, 169, 0.2);
+            overflow-x: hidden;
+        }
+
+        .btn-copy{
+            background-color: #51515E;
+            border: none;
+            padding: 5px 8px;
+  }
+
+        .btn-large{
+            width: 20rem;
+            padding: .9rem 1.4rem;
+            font-size: 1rem;
+            background-color: #E4D9E7;
+            border: none;
+            font-weight: 900;
+        }
+
+        .btn-large:focus{
+            outline: none;
+        }
+
+
+        .btn-large:hover{
+            background-color: rgb(128, 7, 128);
+            color: #D5CCBB;
+            border: 1px solid #E4D9E7;
+        }
+
+        .btn-copy:focus{
+           border-radius: 5px;
+           box-shadow: 1px 1px 2px #D5D7D7;
+           outline: none;
+        }
+
+        i{
+            color: #D5D7D7;
+        }
+
+
+        h1{
+            margin-bottom: 30px;
+        }
+
+        .setting{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+        }
+
+    
+        .display-section{
+            background-color: rgb(230, 230, 238);;
+            padding: 7px 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .d-result{
+            padding: .3rem 1rem;
+            background-color: transparent;
+            border: none;
+            color: #D5CCBB;
+        }
+
+
+        .d-result:focus{
+           outline: none;
+        }
+
+        #length{
+            width: 50px;
+            padding: 5px 5px;
+        }
+
+        #length:focus{
+            outline: none;
+        }
+
+            .text{
+                color: rgb(243, 239, 239);
+                font-weight: 700;
+            }

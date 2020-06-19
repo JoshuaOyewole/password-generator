@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b2284f8b4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1 class="primary-text"> Password Generator</h1>
+
+       <div class="display-section">
+        <input type="text" name="" id="display-result" class="d-result" placeholder="Generate a Password" disabled />
+        <button class="btn btn-copy" id="clipboard">
+            <i class="far fa-clipboard"></i>
+        </button>
+       </div>
+
+       <div class="setting">
+           <div class="text">Password length</div>
+           <div class="checkbox-btn">
+               <input type="number" name="no" id="length" max="20" min="4">
+           </div>
+       </div>
+
+       <div class="setting">
+        <div class="text">Include uppercase letters</div>
+        <div class="checkbox-btn">
+           <input type="checkbox" name="" id="upperCase">
+        </div>
+    </div>
+
+    <div class="setting">
+        <label class="text">Include lowercase letters</label>
+        <div class="checkbox-btn">
+           <input type="checkbox" name="" id="lowerCase">
+        </div>
+    </div>
+
+    <div class="setting">
+        <label class="text">Include numbers</label>
+        <div class="checkbox-btn">
+           <input type="checkbox" name="" id="numbers">
+        </div>
+    </div>
+
+    <div class="setting">
+        <label class="text">Include symbols</label>
+        <div class="checkbox-btn">
+           <input type="checkbox" name="" id="symbols">
+        </div>
+    </div>
+
+    <div class="setting">
+           <input type="button" name="" id="generatePassword" id="generate" value="Generate Password" class="btn btn-large">
+        </div>
+    </div>
+    </div>
+</body>
+</html>
