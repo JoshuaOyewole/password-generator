@@ -3,22 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 62.5%;
+}
         body{
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            padding: 10px;
+            padding: 1rem;
             background-color: #ebe7e7;
             min-height: 100vh;
             font-family: 'Muli', sans-serif;
         }
 
+        .t-center{
+            text-align: center;
+        }
         .container{
             background-color: rgb(158, 0, 158);
             color: #f4f4f4;
             max-width: 350px;
-            padding: 20px;
+            padding: 2rem;
             box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.685);
             overflow-x: hidden;
         }
@@ -26,11 +33,11 @@
         .btn-copy{
             background-color: #51515E;
             border: none;
-            padding: 5px 8px;
+            padding: .5rem .8rem;
   }
 
         .btn-large{
-            width: 20rem;
+            width: 25rem;
             padding: .9rem 1.4rem;
             font-size: 1rem;
             background-color: #E4D9E7;
@@ -61,24 +68,24 @@
 
 
         h1{
-            margin-bottom: 30px;
+            margin-bottom: 4rem;
         }
 
         .setting{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin: 20px;
+            margin: 1.5rem;
         }
 
     
         .display-section{
-            background-color: rgb(230, 230, 238);;
-            padding: 7px 12px;
+            background-color: rgb(230, 230, 238);
+            padding: .7rem 1.2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 2rem;
         }
 
         .d-result{
@@ -94,8 +101,8 @@
         }
 
         #length{
-            width: 50px;
-            padding: 5px 5px;
+            width: 5rem;
+            padding: .5rem;
         }
 
         #length:focus{
@@ -105,4 +112,41 @@
             .text{
                 color: rgb(243, 239, 239);
                 font-weight: 700;
+            }
+
+            @media (max-width: 300px){
+               
+        .container{
+            max-width: 250px;
+        }
+
+
+        h1{
+            margin-bottom: 2.5rem;
+            font-size: 2rem;
+        }
+
+        .setting{
+            margin: 1.5rem;
+        }
+
+        .d-result{
+            padding: .3rem 1rem;
+            background-color: transparent;
+            border: none;
+            color: #D5CCBB;
+        }
+    
+        .display-section{
+            padding: .5rem .9rem;
+            margin-bottom: 1.8rem;
+
+        }
+ 
+        .btn-copy{
+            background-color: #51515E;
+            border: none;
+            padding: .5rem .4rem;
+            margin-left: -2rem;
+  }
             }
