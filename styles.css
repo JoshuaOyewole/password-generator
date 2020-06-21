@@ -118,12 +118,14 @@ html{
                
         .container{
             max-width: 250px;
+            padding: 1rem;
         }
 
 
         h1{
             margin-bottom: 2.5rem;
             font-size: 2rem;
+            padding-top: 2rem;
         }
 
         .setting{
@@ -131,10 +133,11 @@ html{
         }
 
         .d-result{
-            padding: .3rem 1rem;
-            background-color: transparent;
+            padding: .3rem .5rem;
+            background-color: transsparent;
             border: none;
             color: #D5CCBB;
+            
         }
     
         .display-section{
@@ -149,4 +152,8 @@ html{
             padding: .5rem .4rem;
             margin-left: -2rem;
   }
+
+  .text{
+    font-size: 1.4rem;
+}
             }
